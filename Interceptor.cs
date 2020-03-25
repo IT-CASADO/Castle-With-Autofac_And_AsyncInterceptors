@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace CastleWithAsyncInterceptors
 {
-	public abstract class Interceptor : IInterceptor
+	public abstract class Interceptor : IAsyncInterceptor
 	{
 		private bool initialized = false;
 
